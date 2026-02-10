@@ -17,9 +17,15 @@ Real-time speech-to-text translation powered by **Azure AI Speech SDK**. Speaks 
 
 ## Azure Configuration
 
-1. Create a **Speech** resource in the [Azure Portal](https://portal.azure.com).
-2. Copy **Key 1** and the **Region** (e.g. `eastus`) from the *Keys and Endpoint* blade.
-3. Create a `.env` file in the project root:
+1. Create a **Speech** resource (or a Document Intelligence / Cognitive Services resource with Speech enabled) in the [Azure Portal](https://portal.azure.com).
+2. On the resource's **Overview** page you can see the resource details — location, endpoint, pricing tier, and subscription:
+
+   ![Azure Speech Service Resource — Overview](images/azure-speech-resource.png)
+
+   *Azure Portal — Resource overview showing the endpoint, region (East US), pricing tier, and key management link under "Keys and endpoint".*
+
+3. Navigate to **Keys and Endpoint**, then copy **Key 1** and the **Region** (e.g. `eastus`).
+4. Create a `.env` file in the project root:
 
 ```
 SPEECH_KEY=<your-speech-key>
