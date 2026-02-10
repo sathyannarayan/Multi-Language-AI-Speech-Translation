@@ -20,7 +20,7 @@ Real-time speech-to-text translation powered by **Azure AI Speech SDK**. Speaks 
 1. Create a **Speech** resource (or a Document Intelligence / Cognitive Services resource with Speech enabled) in the [Azure Portal](https://portal.azure.com).
 2. On the resource's **Overview** page you can see the resource details — location, endpoint, pricing tier, and subscription:
 
-   ![Azure Speech Service — Keys and Endpoint]()
+   ![Azure Speech Service — Keys and Endpoint](images/azure-speech-resource.png)
 
    *Azure Portal — "Keys and Endpoint" blade for the Speech resource, showing Key 1, Key 2, Location/Region (`eastus`), and the service Endpoint.*
 
